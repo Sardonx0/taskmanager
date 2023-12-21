@@ -28,3 +28,5 @@
 /Users/susanlozano/Downloads/Cproject/taskmanager/obj/Debug/net8.0/taskmanager.pdb
 /Users/susanlozano/Downloads/Cproject/taskmanager/obj/Debug/net8.0/taskmanager.genruntimeconfig.cache
 /Users/susanlozano/Downloads/Cproject/taskmanager/obj/Debug/net8.0/ref/taskmanager.dll
+/Users/susanlozano/Downloads/Cproject/taskmanager/obj/Debug/net8.0/taskmanager.csproj.AssemblyReference.cache
+/Users/susanlozano/Downloads/Cproject/taskmanager/obj/Debug/net8.0/taskmanager.sourcelink.json
