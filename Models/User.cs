@@ -1,19 +1,27 @@
-public class User 
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace taskmanager.Models
 {
-    public int UserId { get; set; } 
+    public class User 
+    {
+        public int UserId { get; set; } 
 
-    [Reguired]
-    [MaxLenght(50)]
-    public int Username {get; set;}
+        [Required]
+        public string Username { get; set; }
 
-    [Required]
-    [EmailAddress]
-    public string Email { get; set; }
+        [Required]
+        [MaxLength(50)]
+        public string FullName { get; set; }
 
-    [Required]
-    [DataType(DataType.Password)]
-    public string Password { get; set;}
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
 
-    public ICollection<Task> Task {get; set;}
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
 
+        public ICollection<Task> Tasks { get; set; }
+    }
 }
